@@ -2,7 +2,7 @@ trigger:
   - master
 
 pool:
-  name: Default
+  name: Default # Run the local agent pool
 
 steps:
   - task: Maven@3
